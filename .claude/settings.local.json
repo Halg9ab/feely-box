@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"d:\\\\documets\\\\GitHub\\\\feely-box\\\\app\" -Recurse -File | Select-Object FullName | ForEach-Object { $_.FullName.Replace\\(\"d:\\\\documets\\\\GitHub\\\\feely-box\\\\\", \"\"\\) })"
+    ],
+    "additionalDirectories": [
+      "d:\\documets\\GitHub\\feely-box\\app",
+      "C:\\Users\\Hussain AlQassab\\.claude\\projects\\d--documets-GitHub-feely-box"
+    ]
+  }
+}
